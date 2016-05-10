@@ -33,13 +33,13 @@ public class PathFollower : MonoBehaviour {
 	}
 
 	// Make the points on the path visible in the scene view.
-	void OnDrawGizmos () {
-		if (path.Length > 0) {
-			for (int i = 0; i< path.Length; i++) {
-				if (path != null) {
-					Gizmos.DrawSphere(path[i].position, reachDist);
-				}
-			}
-		}
-	}
+//	void OnDrawGizmos () {
+//		if (path.Length > 0) {
+//			for (int i = 0; i< path.Length; i++) {
+//				if (path != null) {
+//					Gizmos.DrawSphere(path[i].position, reachDist);
+//				}
+//			}
+//		}
+//	}
 }
