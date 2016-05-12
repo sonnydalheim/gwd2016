@@ -21,6 +21,9 @@ public class ballController : MonoBehaviour {
 		}
 		else
 		{
+//			float av = audio.volume - 0.5f * Time.deltaTime;
+//			if (av < 0.0) av = 0;
+//			audio.volume = av;
 			GetComponent<AudioSource>().Stop();
 		}
 	
